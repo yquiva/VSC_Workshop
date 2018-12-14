@@ -1,3 +1,4 @@
+
 div {
     border: solid
 }
@@ -20,8 +21,6 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 
-@import url(https://fonts.googleapis.com/css?family=Magra);
-
 #pbci {
     text-align: center;
     font-family: trebuchet MS;
@@ -30,3 +29,28 @@ h1,h2,h3,h4,h5,h6 {
 #bottomlinks {
     text-align: center;
 }
+
+#nav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #nav a.active {
+    background-color: slategrey;
+    color: white;
+  }
+  
