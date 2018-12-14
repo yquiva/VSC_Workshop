@@ -1,0 +1,32 @@
+div {
+    border: solid
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center
+}
+#header{
+    background: URL('header-background.jpg');
+    color: whitesmoke
+}
+#article1{
+    float: left; width: 70%; height: auto;
+}
+#sidebar{
+    float: right; width: 25%; display: block; height: auto
+}
+.button{
+    margin: auto;
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Magra);
+
+#pbci {
+    text-align: center;
+    font-family: trebuchet MS;
+}
+
+#bottomlinks {
+    text-align: center;
+}

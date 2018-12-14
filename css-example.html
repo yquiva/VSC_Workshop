@@ -7,9 +7,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    External CSS example
+    <link rel="stylesheet" type="text/css" media="screen" href="<externalURL>/main.css" />
     <script src="main.js"></script>
     -->
+
+    <link rel="stylesheet" type="text/css" media="screen" href="shared.css" />
+
+
+    <style>
+        h2{
+            font-size: 2.5em
+        }
+        p {
+            font-family: 'Verdana'; font-size: 32px; background: magenta
+        }
+        /*
+        Combined Selector
+        */
+        ol li {
+            color:red;
+        }
+
+        ul li {
+            background-color: cornflowerblue;
+            color: blue;
+        }
+        /*P-seudo class*/
+        ul li:nth-child(2) {
+            text-decoration: underline;
+            font-size:1.5em;
+
+        }
+        
+        #specialName{
+            background: #8cc20f
+        }
+
+        .highlight {
+            background: yellow
+        }
+
+    </style>
+
 </head>
 <body style="background-color:#C0C0C0">
     <h2>Articles and sections</h2>
@@ -57,18 +97,19 @@
             <tr>
                 <td>Row 1, Column0 😄</td>
                 <td>Row 1, Column1 😅</td>
-                <td>Row 1, Column2 😆</td>
+                <td class="highlight">Row 1, Column2 😆</td>
             </tr>
         </tbody>
     </table>  
     
     <!-- List section -->
-    <h2>Lists</h2>
+    <h2 id="specialname">Lists</h2>
         Un-order list
         <ul style="background-color: #ff7878; border: 15px dashed rgb(170,50,220, .4)">
             <li>Number 1</li>
             <li>Number 2</li>
         </ul>
+
 
         Ordered list
         <ol>
@@ -91,7 +132,7 @@
             </select>
 
             <br />
-            <label>Password</label>
+            <label class=highlight>Password</label>
             
             <input type="password" value="123" />
             <br />
@@ -113,7 +154,9 @@
             <input type="checkbox">apples</input>
             <input type="checkbox">grapes</input>
         </div>
-
+        <p class="highlight">
+            This is a new paragraph
+        </p>
         <footer>
             <hr />
             Footer page
