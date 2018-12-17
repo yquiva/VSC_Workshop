@@ -1,0 +1,31 @@
+#header{
+    background: #F0F0F0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+#disk1, #disk2, #disk3{
+    width: 300px;
+    height: 150px;
+    background-size: cover
+}
+
+#disk1{
+    background-image: url('disk1.jpg');
+}
+#disk2{
+    background-image: url('disk2.jpg');
+}
+#disk3{
+    background-image: url('disk3.jpg');
+}
+
+#pbci {
+    text-align: center;
+    font-family: trebuchet MS;
+}
+
+#bottomlinks {
+    text-align: center;
+}
