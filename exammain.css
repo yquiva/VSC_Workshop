@@ -13,6 +13,7 @@
 
 #disk1{
     background-image: url('disk1.jpg');
+    
 }
 #disk2{
     background-image: url('disk2.jpg');
@@ -28,4 +29,9 @@
 
 #bottomlinks {
     text-align: center;
+}
+
+img{
+    height: 20px;
+    width: 20px
 }
